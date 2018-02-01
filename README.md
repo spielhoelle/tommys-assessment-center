@@ -6,12 +6,13 @@ We want to copy the node.js meetup page for a event i've been recently
 [Here is the example.](https://www.meetup.com/Node-js-Meetup-Berlin/events/242217963/?eventId=242217963)
 
 
+
+#### READ CAREFULLY, work autonomously, provide for each task 1 commit [(github-basics)](https://gist.github.com/spielhoelle/d64f5d02c4ad23b2d82e37a681d26d47), try to use the class-based aproach
+
+
 ## How to start:
-open `assets/javascripts/index.js`
-
-
-
-#### READ CAREFULLY! - work autonomously - provide for each task 1 commit, try to use the class-based aproach
+1. fork the project to your development folder
+2. open `assets/javascripts/index.js`
 
 ## Tasks:
 1. In `index.js:124` there is a bug in the for loop. Fix it.
@@ -23,6 +24,6 @@ open `assets/javascripts/index.js`
 7. The text of the details is just placeholder content. Fill it with the text from the data object. Advanced Solution would be with keeping the \n\r acting like a newline/return. DuckDuckGo for "innerText"
 8. The searchbar at the top should be required, the placeholder should be "search" and I want to have the value which is currently typed in logged in the console when I press the button (provide a selector in the elements, create a eventlistener for the searchbutton, run this eventlistener once in the constructor)
 9. In line 132 the function argument has "a = {}" inside, what does that mean? Make a comment above line 132
-10. If you struggle with the hard tasks, just make it visually more attractive
+10. If you struggle with the hard tasks, just make it visually more attractive and try to complete the layout like in the [real site](https://www.meetup.com/Node-js-Meetup-Berlin/events/242217963/?eventId=242217963)
 11. Provide a few comments in the code to show that you got it. If you find bugs - fix them
 12. Push your code to github
