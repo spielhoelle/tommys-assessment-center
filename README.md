@@ -15,7 +15,7 @@ We want to copy the node.js meetup page for a event i've been recently
 2. open `assets/javascripts/index.js`
 
 ## Tasks:
-1. In `index.js:124` there is a bug in the for loop. Fix it.
+1. In `index.js:109` there is a bug in the for loop. Fix it.
 2. The attendees list looks shit, make it look like on the original meetup page. (round image, text below the image, add the role of the attendee (member or organizer) also with javascript)
 3. Make the more button work (Tipp: you just have to remove 1 class with javascript from .preview)
 4. Fill all XXX with stuff from the data object (use different types of DOM selectors)
@@ -23,7 +23,7 @@ We want to copy the node.js meetup page for a event i've been recently
 6. make the navigation bar fixed. Use 1 bootstrap class or do it in css
 7. The text of the details is just placeholder content. Fill it with the text from the data object. Advanced Solution would be with keeping the \n\r acting like a newline/return. DuckDuckGo for "innerText"
 8. The searchbar at the top should be required, the placeholder should be "search" and I want to have the value which is currently typed in logged in the console when I press the button (provide a selector in the elements, create a eventlistener for the searchbutton, run this eventlistener once in the constructor)
-9. In line 132 the function argument has "a = {}" inside, what does that mean? Make a comment above line 132
+9. In line 114 the function argument has "a = {}" inside, what does that mean? Make a comment above line 114
 10. If you struggle with the hard tasks, just make it visually more attractive and try to complete the layout like in the [real site](https://www.meetup.com/Node-js-Meetup-Berlin/events/242217963/?eventId=242217963)
 11. Provide a few comments in the code to show that you got it. If you find bugs - fix them
 12. Push your code to github
