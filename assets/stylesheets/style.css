@@ -1,0 +1,15 @@
+.flex-grow {
+  flex-grow: 1
+}
+.preview.faded {
+  max-height: 10em;
+  overflow: hidden;
+}
+.preview.faded::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); 
+  height: 6em;
+}
